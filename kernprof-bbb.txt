@@ -1,0 +1,37 @@
+Searching for duplicates in ../../bbb/
+
+   2.5    GB wasted by duplicates of ../../bbb/big_buck_bunny_1080p_stereo.ogg:
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_1
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_3
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_2
+
+   2.5    GB wasted in total
+Wrote profile results to dedup.py.lprof
+Timer unit: 1e-06 s
+
+File: dedup.py
+Function: __init__ at line 43
+Total time: 114.072 s
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    43                                               @profile
+    44                                               def __init__(self, root, target):
+    45         4          108     27.0      0.0          self._path = os.path.join(root, target)
+    46         4       262887  65721.8      0.2          self._size = os.stat(self._path).st_size
+    47         4    105960243 26490060.8     92.9          content = open(self._path).read()
+    48         4      7848753 1962188.2      6.9          self._csum = hashlib.md5(content).hexdigest()
+    49         4           19      4.8      0.0          self._duplicates = []
+
+File: dedup.py
+Function: identical at line 61
+Total time: 212.218 s
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    61                                               @profile
+    62                                               def identical(self, fileEntry):
+    63         3     78719309 26239769.7     37.1          me = open(self._path).read()
+    64         3    132753807 44251269.0     62.6          him= open(fileEntry.path()).read()
+    65         3       745187 248395.7      0.4          return me == him
+
