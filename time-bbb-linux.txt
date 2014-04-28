@@ -1,0 +1,66 @@
+Searching for duplicates in ../../bbb/
+
+   2.5    GB wasted by duplicates of ../../bbb/big_buck_bunny_1080p_stereo.ogg:
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_1
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_3
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_2
+
+   2.5    GB wasted in total
+         172 function calls in 233.683 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       10  216.912   21.691  216.912   21.691 {method 'read' of 'file' objects}
+        3    8.364    2.788  130.213   43.404 dedup.py:60(identical)
+        5    7.467    1.493    7.467    1.493 {_hashlib.openssl_md5}
+        1    0.431    0.431  233.429  233.429 dedup.py:74(dedup)
+        8    0.215    0.027    0.215    0.027 {posix.stat}
+        1    0.093    0.093    0.094    0.094 dedup.py:31(report)
+        1    0.090    0.090    0.090    0.090 hashlib.py:55(<module>)
+        1    0.039    0.039    0.039    0.039 {posix.listdir}
+        1    0.032    0.032    0.146    0.146 dedup.py:92(report)
+        1    0.019    0.019  233.683  233.683 dedup.py:3(<module>)
+        2    0.017    0.009    0.017    0.009 dedup.py:9(sizeof_fmt)
+        1    0.001    0.001    0.020    0.020 dedup.py:71(__str__)
+        1    0.001    0.001    0.001    0.001 {method 'join' of 'str' objects}
+        1    0.001    0.001    0.001    0.001 {sorted}
+       10    0.000    0.000    0.000    0.000 {open}
+        4    0.000    0.000  102.745   25.686 dedup.py:43(__init__)
+        8    0.000    0.000    0.000    0.000 posixpath.py:68(join)
+        2    0.000    0.000    0.039    0.020 os.py:209(walk)
+        4    0.000    0.000    0.000    0.000 dedup.py:65(wasted)
+        1    0.000    0.000    0.000    0.000 {filter}
+        8    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 dedup.py:33(<lambda>)
+        4    0.000    0.000    0.000    0.000 {method 'hexdigest' of '_hashlib.HASH' objects}
+        4    0.000    0.000    0.000    0.000 dedup.py:21(seen)
+        4    0.000    0.000    0.000    0.000 genericpath.py:38(isdir)
+        3    0.000    0.000    0.000    0.000 dedup.py:68(duplicate)
+        6    0.000    0.000    0.000    0.000 dedup.py:57(path)
+        1    0.000    0.000    0.000    0.000 dedup.py:35(wasted)
+        6    0.000    0.000    0.000    0.000 hashlib.py:94(__get_openssl_constructor)
+        1    0.000    0.000    0.000    0.000 dedup.py:32(<lambda>)
+        6    0.000    0.000    0.000    0.000 {getattr}
+        4    0.000    0.000    0.000    0.000 {len}
+        2    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        8    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 dedup.py:28(get)
+        8    0.000    0.000    0.000    0.000 dedup.py:51(checksum)
+        7    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 stat.py:24(S_IFMT)
+        4    0.000    0.000    0.000    0.000 stat.py:40(S_ISDIR)
+        1    0.000    0.000    0.000    0.000 dedup.py:25(add)
+        1    0.000    0.000    0.000    0.000 dedup.py:41(FileEntry)
+        6    0.000    0.000    0.000    0.000 dedup.py:54(size)
+        1    0.000    0.000    0.000    0.000 dedup.py:16(FileKeeper)
+        6    0.000    0.000    0.000    0.000 {globals}
+        1    0.000    0.000    0.000    0.000 {_hashlib.openssl_sha512}
+        1    0.000    0.000    0.000    0.000 dedup.py:18(__init__)
+        1    0.000    0.000    0.000    0.000 {_hashlib.openssl_sha224}
+        1    0.000    0.000    0.000    0.000 {_hashlib.openssl_sha384}
+        1    0.000    0.000    0.000    0.000 {_hashlib.openssl_sha1}
+        1    0.000    0.000    0.000    0.000 {_hashlib.openssl_sha256}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
