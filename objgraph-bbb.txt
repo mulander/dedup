@@ -1,0 +1,19 @@
+wrapper_descriptor             1035     +1035
+function                       1026     +1026
+builtin_function_or_method      660      +660
+Searching for duplicates in ../../bbb/
+
+   2.5    GB wasted by duplicates of ../../bbb/big_buck_bunny_1080p_stereo.ogg:
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_1
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_3
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_2
+
+   2.5    GB wasted in total
+wrapper_descriptor     1043        +8
+dict                    441        +5
+member_descriptor       188        +4
+getset_descriptor       159        +2
+weakref                 326        +2
+FileKeeper                1        +1
+list                    170        +1
+FileEntry                 1        +1

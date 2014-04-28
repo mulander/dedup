@@ -1,0 +1,608 @@
+wrapper_descriptor             1035     +1035
+function                       1026     +1026
+builtin_function_or_method      660      +660
+Searching for duplicates in ../../linux/
+
+  57.8    KB wasted by duplicates of ../../linux/firmware/radeon/RV610_me.bin.ihex:
+../../linux/firmware/radeon/RV620_me.bin.ihex
+
+  57.8    KB wasted by duplicates of ../../linux/firmware/radeon/RV635_me.bin.ihex:
+../../linux/firmware/radeon/RV630_me.bin.ihex
+
+  37.2    KB wasted by duplicates of ../../linux/firmware/mts_cdma.fw.ihex:
+../../linux/firmware/mts_gsm.fw.ihex
+
+  24.8    KB wasted by duplicates of ../../linux/firmware/radeon/RV670_pfp.bin.ihex:
+../../linux/firmware/radeon/RV610_pfp.bin.ihex
+../../linux/firmware/radeon/RV630_pfp.bin.ihex
+../../linux/firmware/radeon/RV635_pfp.bin.ihex
+../../linux/firmware/radeon/RV620_pfp.bin.ihex
+
+  12.7    KB wasted by duplicates of ../../linux/arch/powerpc/lib/copyuser_power7.S:
+../../linux/tools/testing/selftests/powerpc/copyloops/copyuser_power7.S
+
+  10.8    KB wasted by duplicates of ../../linux/arch/powerpc/lib/copyuser_64.S:
+../../linux/tools/testing/selftests/powerpc/copyloops/copyuser_64.S
+
+  10.6    KB wasted by duplicates of ../../linux/arch/powerpc/lib/memcpy_power7.S:
+../../linux/tools/testing/selftests/powerpc/copyloops/memcpy_power7.S
+
+   9.1    KB wasted by duplicates of ../../linux/firmware/radeon/RV710_pfp.bin.ihex:
+../../linux/firmware/radeon/RV730_pfp.bin.ihex
+
+   7.3    KB wasted by duplicates of ../../linux/arch/cris/arch-v32/lib/memset.c:
+../../linux/arch/cris/arch-v10/lib/memset.c
+
+   6.9    KB wasted by duplicates of ../../linux/arch/cris/arch-v32/lib/string.c:
+../../linux/arch/cris/arch-v10/lib/string.c
+
+   3.7    KB wasted by duplicates of ../../linux/arch/powerpc/lib/memcpy_64.S:
+../../linux/tools/testing/selftests/powerpc/copyloops/memcpy_64.S
+
+   2.8    KB wasted by duplicates of ../../linux/arch/arm/mach-sa1100/include/mach/bitfield.h:
+../../linux/arch/arm/mach-pxa/include/mach/bitfield.h
+
+   2.2    KB wasted by duplicates of ../../linux/firmware/adaptec/starfire_rx.bin.ihex:
+../../linux/firmware/adaptec/starfire_tx.bin.ihex
+
+   1.9    KB wasted by duplicates of ../../linux/arch/arm/mach-s5pv210/include/mach/dma.h:
+../../linux/arch/arm/mach-s5pc100/include/mach/dma.h
+../../linux/arch/arm/mach-exynos/include/mach/dma.h
+
+   1.8    KB wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/ver_functions.sh:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/ver_functions.sh
+
+   1.8    KB wasted by duplicates of ../../linux/arch/m32r/include/asm/mutex.h:
+../../linux/arch/cris/include/asm/mutex.h
+../../linux/arch/frv/include/asm/mutex.h
+../../linux/arch/s390/include/asm/mutex.h
+../../linux/arch/avr32/include/asm/mutex.h
+../../linux/arch/xtensa/include/asm/mutex.h
+../../linux/arch/alpha/include/asm/mutex.h
+
+   1.8    KB wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v0.0/P5-U-T-NH-sd-SMP-hp:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/P5-U-T-NH-sd-SMP-hp
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/P5-U-T-NH-sd-SMP-hp
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/P5-U-T-NH-sd-SMP-hp
+
+   1.3    KB wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v0.0/N5-U-T-NH-sd-SMP-hp:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/N5-U-T-NH-sd-SMP-hp
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/N5-U-T-NH-sd-SMP-hp
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/N5-U-T-NH-sd-SMP-hp
+
+   1.3    KB wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v0.0/P4-A-t-NH-sd-SMP-HP:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/P4-A-t-NH-sd-SMP-HP
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/P4-A-t-NH-sd-SMP-HP
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/P4-A-t-NH-sd-SMP-HP
+
+   1.3    KB wasted by duplicates of ../../linux/arch/blackfin/mach-bf537/include/mach/gpio.h:
+../../linux/arch/blackfin/mach-bf527/include/mach/gpio.h
+
+   1.3    KB wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v0.0/N3-3-T-nh-SD-SMP-hp:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/N3-3-T-nh-SD-SMP-hp
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/N3-3-T-nh-SD-SMP-hp
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/N3-3-T-nh-SD-SMP-hp
+
+   1.3    KB wasted by duplicates of ../../linux/arch/cris/include/arch-v32/arch/hwregs/cpu_vect.h:
+../../linux/arch/cris/include/arch-v32/arch/hwregs/asm/cpu_vect.h
+
+   1.2    KB wasted by duplicates of ../../linux/arch/powerpc/kernel/vdso32/getcpu.S:
+../../linux/arch/powerpc/kernel/vdso64/getcpu.S
+
+   1.2    KB wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v0.0/P2-2-t-nh-sd-SMP-hp:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/P2-2-t-nh-sd-SMP-hp
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/P2-2-t-nh-sd-SMP-hp
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/P2-2-t-nh-sd-SMP-hp
+
+   1.2    KB wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v0.0/P3-3-T-nh-SD-SMP-hp:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/P3-3-T-nh-SD-SMP-hp
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/P3-3-T-nh-SD-SMP-hp
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/P3-3-T-nh-SD-SMP-hp
+
+   1.2    KB wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v0.0/N2-2-t-nh-sd-SMP-hp:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/N2-2-t-nh-sd-SMP-hp
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/N2-2-t-nh-sd-SMP-hp
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/N2-2-t-nh-sd-SMP-hp
+
+   1.1    KB wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v0.0/PT1-nh:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/PT1-nh
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/PT1-nh
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/PT1-nh
+
+   1.1    KB wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v0.0/NT1-nh:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/NT1-nh
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/NT1-nh
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/NT1-nh
+
+   1.1    KB wasted by duplicates of ../../linux/arch/ia64/kernel/audit.c:
+../../linux/arch/alpha/kernel/audit.c
+
+   1.1    KB wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v0.0/PT2-NH:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/PT2-NH
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/PT2-NH
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/PT2-NH
+
+   1.1    KB wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v0.0/N4-A-t-NH-sd-SMP-HP:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/N4-A-t-NH-sd-SMP-HP
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/N4-A-t-NH-sd-SMP-HP
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/N4-A-t-NH-sd-SMP-HP
+
+ 981.0 bytes wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v0.0/NT3-NH:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/NT3-NH
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/NT3-NH
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/NT3-NH
+
+ 873.0 bytes wasted by duplicates of ../../linux/arch/x86/um/vdso/vdso-note.S:
+../../linux/arch/x86/vdso/vdso-note.S
+../../linux/arch/s390/kernel/vdso32/note.S
+../../linux/arch/s390/kernel/vdso64/note.S
+
+ 848.0 bytes wasted by duplicates of ../../linux/arch/x86/include/asm/gpio.h:
+../../linux/arch/metag/include/asm/gpio.h
+../../linux/arch/ia64/include/asm/gpio.h
+../../linux/arch/microblaze/include/asm/gpio.h
+../../linux/arch/xtensa/include/asm/gpio.h
+../../linux/arch/powerpc/include/asm/gpio.h
+../../linux/arch/openrisc/include/asm/gpio.h
+../../linux/arch/alpha/include/asm/gpio.h
+../../linux/arch/sparc/include/asm/gpio.h
+
+ 846.0 bytes wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/P1-S-T-NH-SD-SMP-HP:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/P1-S-T-NH-SD-SMP-HP
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/P1-S-T-NH-SD-SMP-HP
+
+ 805.0 bytes wasted by duplicates of ../../linux/arch/arm/include/asm/asm-offsets.h:
+../../linux/arch/mips/include/asm/asm-offsets.h
+../../linux/arch/mn10300/include/asm/asm-offsets.h
+../../linux/arch/x86/include/asm/asm-offsets.h
+../../linux/arch/hexagon/include/asm/asm-offsets.h
+../../linux/arch/m68k/include/asm/asm-offsets.h
+../../linux/arch/cris/include/asm/asm-offsets.h
+../../linux/arch/parisc/include/asm/asm-offsets.h
+../../linux/arch/score/include/asm/asm-offsets.h
+../../linux/arch/frv/include/asm/asm-offsets.h
+../../linux/arch/tile/include/asm/asm-offsets.h
+../../linux/arch/ia64/include/asm/asm-offsets.h
+../../linux/arch/microblaze/include/asm/asm-offsets.h
+../../linux/arch/c6x/include/asm/asm-offsets.h
+../../linux/arch/s390/include/asm/asm-offsets.h
+../../linux/arch/avr32/include/asm/asm-offsets.h
+../../linux/arch/xtensa/include/asm/asm-offsets.h
+../../linux/arch/blackfin/include/asm/asm-offsets.h
+../../linux/arch/sh/include/asm/asm-offsets.h
+../../linux/arch/arm64/include/asm/asm-offsets.h
+../../linux/arch/powerpc/include/asm/asm-offsets.h
+../../linux/arch/openrisc/include/asm/asm-offsets.h
+../../linux/arch/alpha/include/asm/asm-offsets.h
+../../linux/arch/sparc/include/asm/asm-offsets.h
+
+ 774.0 bytes wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/N1-S-T-NH-SD-SMP-HP:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/N1-S-T-NH-SD-SMP-HP
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/N1-S-T-NH-SD-SMP-HP
+
+ 772.0 bytes wasted by duplicates of ../../linux/arch/mips/include/asm/mach-sead3/war.h:
+../../linux/arch/mips/include/asm/mach-malta/war.h
+
+ 769.0 bytes wasted by duplicates of ../../linux/arch/arm/mach-mvebu/kirkwood-pm.h:
+../../linux/arch/arm/mach-kirkwood/pm.h
+
+ 750.0 bytes wasted by duplicates of ../../linux/arch/arm/include/asm/fb.h:
+../../linux/arch/m32r/include/asm/fb.h
+../../linux/arch/sh/include/asm/fb.h
+
+ 745.0 bytes wasted by duplicates of ../../linux/arch/m32r/include/asm/emergency-restart.h:
+../../linux/arch/cris/include/asm/emergency-restart.h
+../../linux/arch/frv/include/asm/emergency-restart.h
+../../linux/arch/ia64/include/asm/emergency-restart.h
+../../linux/arch/s390/include/asm/emergency-restart.h
+../../linux/arch/alpha/include/asm/emergency-restart.h
+
+ 739.0 bytes wasted by duplicates of ../../linux/arch/sh/kernel/vsyscall/vsyscall-note.S:
+../../linux/arch/powerpc/kernel/vdso32/note.S
+
+ 734.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/uapi/asm/Kbuild:
+../../linux/arch/score/include/uapi/asm/Kbuild
+
+ 728.0 bytes wasted by duplicates of ../../linux/arch/x86/um/vdso/vdso.lds.S:
+../../linux/arch/x86/vdso/vdso.lds.S
+
+ 645.0 bytes wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/P7-4-T-NH-SD-SMP-HP-none:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.12/P7-4-T-NH-SD-SMP-HP-all
+
+ 615.0 bytes wasted by duplicates of ../../linux/arch/cris/include/asm/fb.h:
+../../linux/arch/frv/include/asm/fb.h
+../../linux/arch/s390/include/asm/fb.h
+../../linux/arch/xtensa/include/asm/fb.h
+
+ 516.0 bytes wasted by duplicates of ../../linux/arch/m32r/include/asm/device.h:
+../../linux/arch/cris/include/asm/device.h
+../../linux/arch/frv/include/asm/device.h
+../../linux/arch/s390/include/asm/device.h
+../../linux/arch/alpha/include/asm/device.h
+
+ 504.0 bytes wasted by duplicates of ../../linux/arch/arm/mach-iop33x/Makefile.boot:
+../../linux/arch/arm/mach-zynq/Makefile.boot
+../../linux/arch/arm/mach-ux500/Makefile.boot
+../../linux/arch/arm/mach-orion5x/Makefile.boot
+../../linux/arch/arm/mach-dove/Makefile.boot
+../../linux/arch/arm/mach-mv78xx0/Makefile.boot
+../../linux/arch/arm/mach-kirkwood/Makefile.boot
+
+ 504.0 bytes wasted by duplicates of ../../linux/arch/blackfin/mach-bf518/include/mach/bfin_serial.h:
+../../linux/arch/blackfin/mach-bf537/include/mach/bfin_serial.h
+../../linux/arch/blackfin/mach-bf527/include/mach/bfin_serial.h
+
+ 499.0 bytes wasted by duplicates of ../../linux/arch/mips/lib/ashrdi3.c:
+../../linux/arch/sh/lib/ashrdi3.c
+
+ 477.0 bytes wasted by duplicates of ../../linux/arch/mips/lib/lshrdi3.c:
+../../linux/arch/sh/lib/lshrdi3.c
+
+ 475.0 bytes wasted by duplicates of ../../linux/arch/mips/lib/ashldi3.c:
+../../linux/arch/sh/lib/ashldi3.c
+
+ 456.0 bytes wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/v0.0/CFLIST:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.5/CFLIST
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/v3.3/CFLIST
+
+ 435.0 bytes wasted by duplicates of ../../linux/arch/mips/lib/cmpdi2.c:
+../../linux/arch/sparc/lib/cmpdi2.c
+
+ 383.0 bytes wasted by duplicates of ../../linux/arch/mips/lib/libgcc.h:
+../../linux/arch/sh/lib/libgcc.h
+
+ 374.0 bytes wasted by duplicates of ../../linux/arch/arm/include/uapi/asm/kvm_para.h:
+../../linux/arch/mips/include/uapi/asm/kvm_para.h
+../../linux/arch/um/include/asm/kvm_para.h
+../../linux/arch/mn10300/include/uapi/asm/kvm_para.h
+../../linux/arch/hexagon/include/uapi/asm/kvm_para.h
+../../linux/arch/cris/include/uapi/asm/kvm_para.h
+../../linux/arch/score/include/uapi/asm/kvm_para.h
+../../linux/arch/frv/include/uapi/asm/kvm_para.h
+../../linux/arch/tile/include/uapi/asm/kvm_para.h
+../../linux/arch/microblaze/include/uapi/asm/kvm_para.h
+../../linux/arch/alpha/include/uapi/asm/kvm_para.h
+../../linux/arch/sparc/include/uapi/asm/kvm_para.h
+
+ 364.0 bytes wasted by duplicates of ../../linux/.git/logs/HEAD:
+../../linux/.git/logs/refs/remotes/origin/HEAD
+../../linux/.git/logs/refs/heads/master
+
+ 363.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/asm/local64.h:
+../../linux/arch/x86/include/asm/local64.h
+../../linux/arch/m32r/include/asm/local64.h
+../../linux/arch/cris/include/asm/local64.h
+../../linux/arch/score/include/asm/local64.h
+../../linux/arch/frv/include/asm/local64.h
+../../linux/arch/frv/kernel/local64.h
+../../linux/arch/ia64/include/asm/local64.h
+../../linux/arch/microblaze/include/asm/local64.h
+../../linux/arch/s390/include/asm/local64.h
+../../linux/arch/powerpc/include/asm/local64.h
+../../linux/arch/alpha/include/asm/local64.h
+
+ 312.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/uapi/asm/setup.h:
+../../linux/arch/sh/include/uapi/asm/hw_breakpoint.h
+../../linux/arch/sparc/include/uapi/asm/sigcontext.h
+../../linux/include/uapi/linux/irqnr.h
+
+ 299.0 bytes wasted by duplicates of ../../linux/arch/blackfin/kernel/cplb-nompu/Makefile:
+../../linux/arch/blackfin/kernel/cplb-mpu/Makefile
+
+ 259.0 bytes wasted by duplicates of ../../linux/arch/parisc/oprofile/Makefile:
+../../linux/arch/sparc/oprofile/Makefile
+
+ 252.0 bytes wasted by duplicates of ../../linux/arch/blackfin/mach-bf533/include/mach/bfin_serial.h:
+../../linux/arch/blackfin/mach-bf561/include/mach/bfin_serial.h
+
+ 240.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/uapi/asm/poll.h:
+../../linux/arch/x86/include/uapi/asm/poll.h
+../../linux/arch/m32r/include/uapi/asm/poll.h
+../../linux/arch/cris/include/uapi/asm/poll.h
+../../linux/arch/ia64/include/uapi/asm/poll.h
+../../linux/arch/microblaze/include/uapi/asm/poll.h
+../../linux/arch/s390/include/uapi/asm/poll.h
+../../linux/arch/powerpc/include/uapi/asm/poll.h
+../../linux/arch/alpha/include/uapi/asm/poll.h
+
+ 224.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/uapi/asm/ipcbuf.h:
+../../linux/arch/x86/include/uapi/asm/ipcbuf.h
+../../linux/arch/m32r/include/uapi/asm/ipcbuf.h
+../../linux/arch/cris/include/uapi/asm/ipcbuf.h
+../../linux/arch/frv/include/uapi/asm/ipcbuf.h
+../../linux/arch/ia64/include/uapi/asm/ipcbuf.h
+../../linux/arch/microblaze/include/uapi/asm/ipcbuf.h
+../../linux/arch/alpha/include/uapi/asm/ipcbuf.h
+
+ 217.0 bytes wasted by duplicates of ../../linux/arch/m32r/include/asm/div64.h:
+../../linux/arch/cris/include/asm/div64.h
+../../linux/arch/frv/include/asm/div64.h
+../../linux/arch/ia64/include/asm/div64.h
+../../linux/arch/microblaze/include/asm/div64.h
+../../linux/arch/s390/include/asm/div64.h
+../../linux/arch/powerpc/include/asm/div64.h
+../../linux/arch/alpha/include/asm/div64.h
+
+ 217.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/uapi/asm/ioctl.h:
+../../linux/arch/x86/include/uapi/asm/ioctl.h
+../../linux/arch/m32r/include/uapi/asm/ioctl.h
+../../linux/arch/cris/include/uapi/asm/ioctl.h
+../../linux/arch/frv/include/uapi/asm/ioctl.h
+../../linux/arch/ia64/include/uapi/asm/ioctl.h
+../../linux/arch/microblaze/include/uapi/asm/ioctl.h
+../../linux/arch/s390/include/uapi/asm/ioctl.h
+
+ 209.0 bytes wasted by duplicates of ../../linux/tools/lib/lockdep/uinclude/asm/hweight.h:
+../../linux/tools/lib/lockdep/uinclude/asm/sections.h
+../../linux/tools/lib/lockdep/uinclude/linux/seq_file.h
+../../linux/tools/lib/lockdep/uinclude/linux/linkage.h
+../../linux/tools/lib/lockdep/uinclude/linux/gfp.h
+../../linux/tools/lib/lockdep/uinclude/linux/ftrace.h
+../../linux/tools/lib/lockdep/uinclude/linux/mutex.h
+../../linux/tools/lib/lockdep/uinclude/linux/interrupt.h
+../../linux/tools/lib/lockdep/uinclude/linux/bitops.h
+../../linux/tools/lib/lockdep/uinclude/linux/proc_fs.h
+../../linux/tools/lib/lockdep/uinclude/linux/delay.h
+../../linux/tools/lib/lockdep/uinclude/trace/events/lock.h
+
+ 200.0 bytes wasted by duplicates of ../../linux/tools/perf/arch/s390/Makefile:
+../../linux/tools/perf/arch/sh/Makefile
+../../linux/tools/perf/arch/sparc/Makefile
+
+ 192.0 bytes wasted by duplicates of ../../linux/arch/arm/kernel/.gitignore:
+../../linux/arch/mips/kernel/.gitignore
+../../linux/arch/arc/kernel/.gitignore
+../../linux/arch/m32r/kernel/.gitignore
+../../linux/arch/m68k/kernel/.gitignore
+../../linux/arch/parisc/kernel/.gitignore
+../../linux/arch/metag/kernel/.gitignore
+../../linux/arch/microblaze/kernel/.gitignore
+../../linux/arch/s390/kernel/.gitignore
+../../linux/arch/avr32/kernel/.gitignore
+../../linux/arch/xtensa/kernel/.gitignore
+../../linux/arch/blackfin/kernel/.gitignore
+../../linux/arch/sh/kernel/.gitignore
+../../linux/arch/arm64/kernel/.gitignore
+../../linux/arch/powerpc/kernel/.gitignore
+../../linux/arch/alpha/kernel/.gitignore
+../../linux/arch/sparc/kernel/.gitignore
+
+ 186.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/uapi/asm/fcntl.h:
+../../linux/arch/x86/include/uapi/asm/fcntl.h
+../../linux/arch/m32r/include/uapi/asm/fcntl.h
+../../linux/arch/cris/include/uapi/asm/fcntl.h
+../../linux/arch/frv/include/uapi/asm/fcntl.h
+../../linux/arch/microblaze/include/uapi/asm/fcntl.h
+../../linux/arch/s390/include/uapi/asm/fcntl.h
+
+ 170.0 bytes wasted by duplicates of ../../linux/arch/arm/mach-versatile/Makefile.boot:
+../../linux/arch/arm/mach-footbridge/Makefile.boot
+../../linux/arch/arm/mach-integrator/Makefile.boot
+
+ 170.0 bytes wasted by duplicates of ../../linux/arch/m32r/include/asm/irq_regs.h:
+../../linux/arch/cris/include/asm/irq_regs.h
+../../linux/arch/ia64/include/asm/irq_regs.h
+../../linux/arch/microblaze/include/asm/irq_regs.h
+../../linux/arch/s390/include/asm/irq_regs.h
+../../linux/arch/alpha/include/asm/irq_regs.h
+
+ 169.0 bytes wasted by duplicates of ../../linux/arch/x86/um/vdso/checkundef.sh:
+../../linux/arch/x86/vdso/checkundef.sh
+
+ 164.0 bytes wasted by duplicates of ../../linux/arch/m32r/include/asm/futex.h:
+../../linux/arch/cris/include/asm/futex.h
+../../linux/arch/sparc/include/asm/futex_32.h
+
+ 154.0 bytes wasted by duplicates of ../../linux/arch/m32r/platforms/m32700ut/Makefile:
+../../linux/arch/m32r/platforms/opsput/Makefile
+../../linux/arch/m32r/platforms/m32104ut/Makefile
+../../linux/arch/m32r/platforms/mappi2/Makefile
+../../linux/arch/m32r/platforms/mappi3/Makefile
+../../linux/arch/m32r/platforms/mappi/Makefile
+../../linux/arch/m32r/platforms/oaks32r/Makefile
+../../linux/arch/m32r/platforms/usrv/Makefile
+
+ 148.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/uapi/asm/bitsperlong.h:
+../../linux/arch/m32r/include/uapi/asm/bitsperlong.h
+../../linux/arch/cris/include/uapi/asm/bitsperlong.h
+../../linux/arch/frv/include/uapi/asm/bitsperlong.h
+../../linux/arch/microblaze/include/uapi/asm/bitsperlong.h
+
+ 145.0 bytes wasted by duplicates of ../../linux/arch/blackfin/mach-bf538/include/mach/pll.h:
+../../linux/arch/blackfin/mach-bf548/include/mach/pll.h
+../../linux/arch/blackfin/mach-bf518/include/mach/pll.h
+../../linux/arch/blackfin/mach-bf533/include/mach/pll.h
+../../linux/arch/blackfin/mach-bf537/include/mach/pll.h
+../../linux/arch/blackfin/mach-bf527/include/mach/pll.h
+
+ 135.0 bytes wasted by duplicates of ../../linux/tools/perf/scripts/perl/bin/rwtop-record:
+../../linux/tools/perf/scripts/perl/bin/rw-by-pid-record
+
+ 132.0 bytes wasted by duplicates of ../../linux/arch/cris/arch-v32/drivers/mach-fs/Makefile:
+../../linux/arch/cris/arch-v32/drivers/mach-a3/Makefile
+
+ 128.0 bytes wasted by duplicates of ../../linux/arch/m32r/include/asm/kdebug.h:
+../../linux/arch/cris/include/asm/kdebug.h
+../../linux/arch/frv/include/asm/kdebug.h
+../../linux/arch/microblaze/include/asm/kdebug.h
+../../linux/arch/alpha/include/asm/kdebug.h
+
+ 124.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/asm/local.h:
+../../linux/arch/cris/include/asm/local.h
+../../linux/arch/ia64/include/asm/local.h
+../../linux/arch/microblaze/include/asm/local.h
+../../linux/arch/s390/include/asm/local.h
+
+ 122.0 bytes wasted by duplicates of ../../linux/sound/isa/msnd/msnd_classic.c:
+../../linux/sound/oss/msnd_classic.c
+
+ 118.0 bytes wasted by duplicates of ../../linux/tools/perf/config/feature-checks/test-fortify-source.c:
+../../linux/tools/perf/config/feature-checks/test-hello.c
+../../linux/tools/perf/config/feature-checks/test-stackprotector-all.c
+
+ 114.0 bytes wasted by duplicates of ../../linux/arch/frv/include/asm/linkage.h:
+../../linux/arch/arm64/include/asm/linkage.h
+
+ 112.0 bytes wasted by duplicates of ../../linux/arch/arm/mach-s5pv210/Makefile.boot:
+../../linux/arch/arm/mach-s5p64x0/Makefile.boot
+../../linux/arch/arm/mach-s5pc100/Makefile.boot
+
+ 106.0 bytes wasted by duplicates of ../../linux/tools/perf/scripts/python/bin/syscall-counts-record:
+../../linux/tools/perf/scripts/python/bin/syscall-counts-by-pid-record
+../../linux/tools/perf/scripts/python/bin/sctop-record
+
+ 105.0 bytes wasted by duplicates of ../../linux/tools/perf/util/include/asm/hash.h:
+../../linux/tools/lib/lockdep/uinclude/asm/hash.h
+
+ 102.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/uapi/asm/resource.h:
+../../linux/arch/x86/include/uapi/asm/resource.h
+../../linux/arch/microblaze/include/uapi/asm/resource.h
+../../linux/arch/powerpc/include/uapi/asm/resource.h
+
+  96.0 bytes wasted by duplicates of ../../linux/arch/arm/mach-vexpress/include/mach/hardware.h:
+../../linux/arch/arm/mach-mvebu/include/mach/gpio.h
+../../linux/arch/mn10300/include/asm/ftrace.h
+../../linux/arch/m32r/include/asm/ftrace.h
+../../linux/arch/m68k/include/asm/ftrace.h
+../../linux/arch/cris/include/asm/ftrace.h
+../../linux/arch/frv/include/asm/ftrace.h
+../../linux/arch/avr32/include/asm/ftrace.h
+../../linux/arch/alpha/include/asm/ftrace.h
+
+  93.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/uapi/asm/errno.h:
+../../linux/arch/x86/include/uapi/asm/errno.h
+../../linux/arch/ia64/include/uapi/asm/errno.h
+../../linux/arch/microblaze/include/uapi/asm/errno.h
+
+  90.0 bytes wasted by duplicates of ../../linux/arch/m32r/include/uapi/asm/mman.h:
+../../linux/arch/cris/include/uapi/asm/mman.h
+../../linux/arch/frv/include/uapi/asm/mman.h
+../../linux/arch/microblaze/include/uapi/asm/mman.h
+
+  88.0 bytes wasted by duplicates of ../../linux/arch/cris/arch-v32/mach-fs/Makefile:
+../../linux/arch/cris/arch-v32/mach-a3/Makefile
+
+  87.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/asm/xor.h:
+../../linux/arch/frv/include/asm/xor.h
+../../linux/arch/microblaze/include/asm/xor.h
+../../linux/arch/s390/include/asm/xor.h
+
+  86.0 bytes wasted by duplicates of ../../linux/arch/x86/net/Makefile:
+../../linux/arch/s390/net/Makefile
+
+  86.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/asm/emergency-restart.h:
+../../linux/arch/microblaze/include/asm/emergency-restart.h
+../../linux/arch/powerpc/include/asm/emergency-restart.h
+
+  72.0 bytes wasted by duplicates of ../../linux/arch/blackfin/mach-bf548/Makefile:
+../../linux/arch/blackfin/mach-bf537/Makefile
+
+  68.0 bytes wasted by duplicates of ../../linux/arch/mips/include/asm/mach-generic/topology.h:
+../../linux/arch/mn10300/include/asm/topology.h
+../../linux/arch/microblaze/include/asm/topology.h
+
+  62.0 bytes wasted by duplicates of ../../linux/arch/x86/include/uapi/asm/param.h:
+../../linux/arch/microblaze/include/uapi/asm/param.h
+../../linux/arch/powerpc/include/uapi/asm/param.h
+
+  60.0 bytes wasted by duplicates of ../../linux/arch/mips/sibyte/bcm1480/Makefile:
+../../linux/arch/mips/sibyte/sb1250/Makefile
+
+  52.0 bytes wasted by duplicates of ../../linux/tools/perf/scripts/perl/bin/failed-syscalls-record:
+../../linux/tools/perf/scripts/python/bin/failed-syscalls-by-pid-record
+
+  46.0 bytes wasted by duplicates of ../../linux/include/uapi/linux/hdlc/Kbuild:
+../../linux/include/uapi/linux/mmc/Kbuild
+
+  37.0 bytes wasted by duplicates of ../../linux/arch/x86/include/asm/exec.h:
+../../linux/arch/blackfin/include/asm/exec.h
+
+  34.0 bytes wasted by duplicates of ../../linux/arch/x86/include/uapi/asm/termbits.h:
+../../linux/arch/microblaze/include/uapi/asm/termbits.h
+
+  34.0 bytes wasted by duplicates of ../../linux/arch/m32r/include/uapi/asm/types.h:
+../../linux/arch/cris/include/uapi/asm/types.h
+
+  34.0 bytes wasted by duplicates of ../../linux/arch/score/include/asm/ucontext.h:
+../../linux/arch/microblaze/include/asm/ucontext.h
+
+  33.0 bytes wasted by duplicates of ../../linux/arch/x86/include/uapi/asm/sockios.h:
+../../linux/arch/microblaze/include/uapi/asm/sockios.h
+
+  33.0 bytes wasted by duplicates of ../../linux/arch/x86/include/uapi/asm/termios.h:
+../../linux/arch/microblaze/include/uapi/asm/termios.h
+
+  33.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/uapi/asm/siginfo.h:
+../../linux/arch/microblaze/include/uapi/asm/siginfo.h
+
+  32.0 bytes wasted by duplicates of ../../linux/arch/x86/include/uapi/asm/socket.h:
+../../linux/arch/microblaze/include/uapi/asm/socket.h
+
+  32.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/uapi/asm/statfs.h:
+../../linux/arch/microblaze/include/uapi/asm/statfs.h
+
+  32.0 bytes wasted by duplicates of ../../linux/arch/x86/include/uapi/asm/ioctls.h:
+../../linux/arch/microblaze/include/uapi/asm/ioctls.h
+
+  32.0 bytes wasted by duplicates of ../../linux/arch/x86/include/uapi/asm/msgbuf.h:
+../../linux/arch/microblaze/include/uapi/asm/msgbuf.h
+
+  32.0 bytes wasted by duplicates of ../../linux/arch/mn10300/include/asm/percpu.h:
+../../linux/arch/microblaze/include/asm/percpu.h
+
+  32.0 bytes wasted by duplicates of ../../linux/arch/x86/include/uapi/asm/shmbuf.h:
+../../linux/arch/microblaze/include/uapi/asm/shmbuf.h
+
+  31.0 bytes wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/TREE04.boot:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/TREE01.boot
+
+  31.0 bytes wasted by duplicates of ../../linux/arch/sh/include/uapi/asm/setup.h:
+../../linux/arch/powerpc/include/uapi/asm/setup.h
+
+  30.0 bytes wasted by duplicates of ../../linux/arch/mips/boot/compressed/dummy.c:
+../../linux/arch/powerpc/boot/dummy.c
+
+  30.0 bytes wasted by duplicates of ../../linux/arch/mips/txx9/rbtx4938/Makefile:
+../../linux/arch/mips/txx9/rbtx4927/Makefile
+
+  29.0 bytes wasted by duplicates of ../../linux/tools/testing/selftests/rcutorture/configs/rcu/SRCU-N.boot:
+../../linux/tools/testing/selftests/rcutorture/configs/rcu/SRCU-P.boot
+
+  29.0 bytes wasted by duplicates of ../../linux/arch/x86/include/asm/rtc.h:
+../../linux/arch/alpha/include/asm/rtc.h
+
+  28.0 bytes wasted by duplicates of ../../linux/arch/avr32/boards/hammerhead/Makefile:
+../../linux/arch/avr32/boards/mimc200/Makefile
+
+  27.0 bytes wasted by duplicates of ../../linux/arch/arm/mach-sa1100/include/mach/generic.h:
+../../linux/arch/arm/mach-pxa/include/mach/generic.h
+
+  11.0 bytes wasted by duplicates of ../../linux/tools/perf/util/include/asm/asm-offsets.h:
+../../linux/tools/perf/util/include/asm/swab.h
+
+  11.0 bytes wasted by duplicates of ../../linux/arch/x86/vdso/vdso32/.gitignore:
+../../linux/arch/s390/kernel/vdso32/.gitignore
+
+   7.0 bytes wasted by duplicates of ../../linux/Documentation/DocBook/media/v4l/.gitignore:
+../../linux/Documentation/DocBook/media/dvb/.gitignore
+
+   6.0 bytes wasted by duplicates of ../../linux/arch/x86/include/uapi/asm/setup.h:
+../../linux/arch/x86/include/uapi/asm/hw_breakpoint.h
+
+   6.0 bytes wasted by duplicates of ../../linux/drivers/staging/lustre/include/linux/libcfs/bitmap.h:
+../../linux/arch/microblaze/include/asm/user.h
+../../linux/arch/microblaze/include/asm/cputable.h
+../../linux/arch/microblaze/include/asm/hw_irq.h
+../../linux/arch/microblaze/include/uapi/asm/auxvec.h
+../../linux/tools/perf/util/include/asm/unistd_32.h
+../../linux/tools/perf/util/include/asm/unistd_64.h
+
+ 291.2    KB wasted in total
+dict                  46897    +46461
+list                  46626    +46457
+FileEntry             46457    +46457
+wrapper_descriptor     1043        +8
+member_descriptor       188        +4
+getset_descriptor       159        +2
+weakref                 326        +2
+FileKeeper                1        +1
