@@ -65,9 +65,14 @@ class FileEntry(object):
         return self._path
 
     def identical(self, fileEntry):
-        me = open(self._path).read()
-        him= open(fileEntry.path()).read()
-        return me == him
+        with open(self._path, 'rb') as me, open(fileEntry.path(), 'rb') as him:
+            while True:
+                b1 = me.read(BUFSIZE)
+                b2 = him.read(BUFSIZE)
+                if b1 != b2:
+                    return False
+                if not b1:
+                    return True
 
     def wasted(self):
         return self._size * len(self._duplicates)
