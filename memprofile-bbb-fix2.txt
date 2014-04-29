@@ -1,0 +1,43 @@
+Searching for duplicates in ../../bbb/
+
+   2.5    GB wasted by duplicates of ../../bbb/big_buck_bunny_1080p_stereo.ogg:
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_1
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_3
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_2
+
+   2.5    GB wasted in total
+Filename: dedup.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    45    9.930 MiB    0.000 MiB       @profile
+    46                                 def __init__(self, root, target):
+    47    9.930 MiB    0.000 MiB           self._path = os.path.join(root, target)
+    48    9.930 MiB    0.000 MiB           self._size = os.stat(self._path).st_size
+    49    9.930 MiB    0.000 MiB           m = hashlib.md5()
+    50    9.930 MiB    0.000 MiB           with open(self._path, 'rb') as f:
+    51    9.930 MiB    0.000 MiB               while True:
+    52    9.930 MiB    0.000 MiB                   content = f.read(BUFSIZE)
+    53    9.930 MiB    0.000 MiB                   if not content:
+    54    9.930 MiB    0.000 MiB                       break
+    55    9.930 MiB    0.000 MiB                   m.update(content)
+    56    9.930 MiB    0.000 MiB           self._csum = m.hexdigest()
+    57    9.930 MiB    0.000 MiB           self._duplicates = []
+
+
+Filename: dedup.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    68    9.930 MiB    0.000 MiB       @profile
+    69                                 def identical(self, fileEntry):
+    70    9.930 MiB    0.000 MiB           with open(self._path, 'rb') as me, open(fileEntry.path(), 'rb') as him:
+    71    9.934 MiB    0.004 MiB               while True:
+    72    9.934 MiB    0.000 MiB                   b1 = me.read(BUFSIZE)
+    73    9.934 MiB    0.000 MiB                   b2 = him.read(BUFSIZE)
+    74    9.934 MiB    0.000 MiB                   if b1 != b2:
+    75                                                 return False
+    76    9.934 MiB    0.000 MiB                   if not b1:
+    77    9.930 MiB   -0.004 MiB                       return True
+
+

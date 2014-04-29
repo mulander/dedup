@@ -1,0 +1,48 @@
+Searching for duplicates in ../../bbb/
+
+   2.5    GB wasted by duplicates of ../../bbb/big_buck_bunny_1080p_stereo.ogg:
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_1
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_3
+../../bbb/big_buck_bunny_1080p_stereo.ogg_COPY_2
+
+   2.5    GB wasted in total
+Wrote profile results to dedup.py.lprof
+Timer unit: 1e-06 s
+
+File: dedup.py
+Function: __init__ at line 45
+Total time: 61.8502 s
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    45                                               @profile
+    46                                               def __init__(self, root, target):
+    47         4          114     28.5      0.0          self._path = os.path.join(root, target)
+    48         4          138     34.5      0.0          self._size = os.stat(self._path).st_size
+    49         4           39      9.8      0.0          m = hashlib.md5()
+    50         4          192     48.0      0.0          with open(self._path, 'rb') as f:
+    51    443820      1205306      2.7      1.9              while True:
+    52    443820     35630594     80.3     57.6                  content = f.read(BUFSIZE)
+    53    443820      1209827      2.7      2.0                  if not content:
+    54         4          178     44.5      0.0                      break
+    55    443816     23803687     53.6     38.5                  m.update(content)
+    56         4           59     14.8      0.0          self._csum = m.hexdigest()
+    57         4           39      9.8      0.0          self._duplicates = []
+
+File: dedup.py
+Function: identical at line 68
+Total time: 105.527 s
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+    68                                               @profile
+    69                                               def identical(self, fileEntry):
+    70         3          208     69.3      0.0          with open(self._path, 'rb') as me, open(fileEntry.path(), 'rb') as him:
+    71    332865       829297      2.5      0.8              while True:
+    72    332865     56614073    170.1     53.6                  b1 = me.read(BUFSIZE)
+    73    332865     45518207    136.7     43.1                  b2 = him.read(BUFSIZE)
+    74    332865      1713894      5.1      1.6                  if b1 != b2:
+    75                                                               return False
+    76    332865       851573      2.6      0.8                  if not b1:
+    77         3          207     69.0      0.0                      return True
+
