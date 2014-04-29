@@ -5,6 +5,8 @@ import sys
 import stat
 import hashlib
 
+BUFSIZE=8*1024
+
 # http://stackoverflow.com/questions/1094841/reusable-library-to-get-human-readable-version-of-file-size
 def sizeof_fmt(num):
     for x in ['bytes','KB','MB','GB']:
@@ -43,10 +45,15 @@ class FileEntry(object):
     def __init__(self, root, target):
         self._path = os.path.join(root, target)
         self._size = os.stat(self._path).st_size
-        content = open(self._path).read()
-        self._csum = hashlib.md5(content).hexdigest()
+        m = hashlib.md5()
+        with open(self._path, 'rb') as f:
+            while True:
+                content = f.read(BUFSIZE)
+                if not content:
+                    break
+                m.update(content)
+        self._csum = m.hexdigest()
         self._duplicates = []
-        #print self
 
     def checksum(self):
         return self._csum
